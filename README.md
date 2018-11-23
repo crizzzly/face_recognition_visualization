@@ -10,7 +10,7 @@ np.arctan is used to get direction of highest change per pixel, also based on so
 
 results of each calculation are shown as images in one frame using matplotlib.subplot
 
-#### 1_image_gradients_cv2vid.py
+#### 2_image_gradients_cv2vid.py
 uses cv2.VideoCapture on webcam to display live results of sobel_x and sobel_y in two seperate frames
 
 #### 2_image_gradients_matplotAnim.py
@@ -21,5 +21,5 @@ uses matplotlib to display greyscale image, magnitude and angle in single frame
 result of playing around with python-hog found in https://github.com/JeanKossaifi/python-hog.
 with this we can display the calculated vectors (direction and magnitude) as image, but the results of diection and magnitude are less detailed than previous results
 
-#### 3_image_histogram-mark_faces.py
+#### 4_image_histogram-mark_faces.py
 still trying to mark the detected faces on the histogram image
